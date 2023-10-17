@@ -1,0 +1,48 @@
+table {
+    width: 100%;
+    background-color:#9538ff;
+    
+  }
+  .example-container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #555;
+  }
+
+  mat-toolbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color:white;
+    color: #9538ff;
+    font-weight: 600;
+  }
+  mat-drawer-content {
+    background-color: #9538ff;
+    color:white !important;
+  }
+  .example-icon {
+    padding: 0 14px;
+  }
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-cell,.mat-header-cell {
+    color: #4e1d86;
+    height: 20px;
+    background-color: #ffffff;
+}
+.mat-raised-button {
+    color:#9538ff;
+    background-color: white;
+}
+mat-form-field,mat-label,.matInput{
+    color:#ffffff;
+}
+.mat-table {
+    overflow: auto;
+    max-height: 27px;
+  }
